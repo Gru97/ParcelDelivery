@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParcelDelivery", "ParcelDelivery\ParcelDelivery.csproj", "{C4AE0C73-DB13-4A16-B564-30E4537F4CAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParcelDelivery", "ParcelDelivery\ParcelDelivery.csproj", "{C4AE0C73-DB13-4A16-B564-30E4537F4CAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParcelDelivery.Domain", "ParcelDelivery.Domain\ParcelDelivery.Domain.csproj", "{6CB06D63-D7E0-489A-8A88-B7F52F4DAB4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParcelDelivery.Domain", "ParcelDelivery.Domain\ParcelDelivery.Domain.csproj", "{6CB06D63-D7E0-489A-8A88-B7F52F4DAB4C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B30F7696-4532-43CA-875E-FDB34F7B01DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{CEA14135-B335-4A4A-B211-924111A61CEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,9 +25,16 @@ Global
 		{6CB06D63-D7E0-489A-8A88-B7F52F4DAB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CB06D63-D7E0-489A-8A88-B7F52F4DAB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CB06D63-D7E0-489A-8A88-B7F52F4DAB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA14135-B335-4A4A-B211-924111A61CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA14135-B335-4A4A-B211-924111A61CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA14135-B335-4A4A-B211-924111A61CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA14135-B335-4A4A-B211-924111A61CEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEA14135-B335-4A4A-B211-924111A61CEA} = {B30F7696-4532-43CA-875E-FDB34F7B01DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {86669323-C5AD-4B30-A373-0CFA235747A5}
