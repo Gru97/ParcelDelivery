@@ -4,9 +4,8 @@ using System.Text;
 
 namespace ParcelDelivery.Domain
 {
-    public interface IDepartment
+    public  interface IDepartmentFactory
     {
-        
-        string Handle(Parcel parcel);
+        IDepartment Get(Parcel parcel);
     }
 }
